@@ -1,7 +1,7 @@
 import mongoose from   "mongoose"; 
 import {model,Schema} from 'mongoose' 
 
-mongoose.connect("")  
+// mongoose.connect("")  
 const userSchema = new Schema({
     username: {type:String ,unique:true} ,
     password:String  ,
